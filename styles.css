@@ -1,0 +1,67 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.6;
+    word-spacing: 1px;
+    font-family: "Audiowide", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("bg.jpg");
+    background-size: 100% 100%;
+    overflow: hidden;
+    
+}
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#myForm{
+    text-align: center;
+    color: white;
+    background: #5f2c82; 
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  
+    background: linear-gradient(to right, #49a09d, #5f2c82);
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 145, 255, 0.3) 0px 15px 15px 15px, rgba(172, 219, 255, 0.15) 0px 10px 30px 10px; 
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    
+}
+
+input[type="submit"] {
+    width: 300px;
+    height: 40px; 
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    background-color: #57056b; 
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    background-color: #41c9ff;
+}
+
+input[type="file"] {
+    border: none;
+    color: transparent;
+}
